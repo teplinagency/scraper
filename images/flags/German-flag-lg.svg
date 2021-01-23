@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="95px" height="95px" viewBox="0 0 95 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3D552C3C-F1BC-4017-8E13-7D0FDD758D95@3x</title>
+    <g id="LP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-1-1-LP" transform="translate(-1069.000000, -592.000000)">
+            <g id="Hero" transform="translate(-0.712252, 0.000000)">
+                <g id="Germany" transform="translate(1069.712252, 163.660000)">
+                    <g id="German-flag" transform="translate(0.000000, 428.340000)">
+                        <g id="germany" transform="translate(1.000000, 2.000000)" fill-rule="nonzero">
+                            <path d="M3.07438017,62.4821052 C9.61706478,80.3011032 26.5901319,93 46.5,93 C66.4098681,93 83.3829352,80.3011032 89.9256198,62.4821052 L46.5,58.4132231 L3.07438017,62.4821052 Z" id="Path" fill="#FFDA44"></path>
+                            <path d="M46.5,0 C26.5901319,0 9.61706478,12.698714 3.07438017,30.5178948 L46.5,34.5867769 L89.9256198,30.517712 C83.3829352,12.698714 66.4098681,0 46.5,0 Z" id="Path" fill="#000000"></path>
+                            <path d="M2.89226367,30.7438017 C1.02318164,35.7708602 0,41.2081244 0,46.8842975 C0,52.5604707 1.02318164,57.9977349 2.89226367,63.0247934 L90.107918,63.0247934 C91.977,57.9977349 93,52.5604707 93,46.8842975 C93,41.2081244 91.977,35.7708602 90.1077363,30.7438017 L2.89226367,30.7438017 Z" id="Path" fill="#D80027"></path>
+                        </g>
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="2" cx="47.5" cy="47.5" r="46.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link href="images/favicon.png" rel="shortcut icon">
+    <link href="images/favicon.png" rel="apple-touch-icon-precomposed">
+
+    <title>Home - Scraper API</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<header id="Hdr_main" class="header">
+    <nav class="navbar navbar-expand-lg white-nav-links">
+        <a class="navbar-brand" href="index.html">scraper<span>api</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="documentation.html">Documentation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="affiliates.html">Affiliates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://danni057272.typeform.com/to/P8e4If">Support</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://danni057272.typeform.com/to/sMpSSx">Contact Sales</a>
+                </li>
+            </ul>
+            <div class="login-link-nav d-flex align-items-center">
+                <a class="nav-link" href="http://dash.mawais.com/login">Login</a>
+                <a href="http://dash.mawais.com/signup" class="btn btn-blue-nav">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section class="main-section">
+    <div class="banner-div inner-page-banner-gary">
+        <div class="banner-text banner-text-post">
+            <a href="/blog" class="d-flex align-items-center"><img src="images/back-arrow.svg" alt=""/> Back to the blog</a>
+            <h2>Building a Scrapy Spider to Monitor 10M Products Per Day</h2>
+            <span>Jun 25, 2020</span>
+            <div class="card-user">
+                <div class="card-user-photo"
+                     style="background-image: url('images/photo-user.png');">
+                </div>
+                <div class="card-user-name">Cristina Saavedra</div>
+            </div>
+        </div>
+    </div>
+    <div class="blog-detail-page">
+        <div class="container">
+            <div class="row">
+                <div class="blog-detail-inner-section container-969">
+                    <div class="api-documentaion">
+                        <strong>
+                            When you sign up, you’re on the Free plan by default. The Free plan is designed for teams
+                            just starting out with visual collaboration: you can invite as many team members.
+                        </strong>
+
+                        <h2>API Key & Authentication</h2>
+
+                        <p>Scraper API is designed to make scraping the web at scale as simple as possible by removing
+                            the hassle of finding high quality proxies, rotating proxy pools, detecting bans, solving
+                            CAPTCHAs, managing geotargeting and rendering javascript. With Scraper API you simply send a
+                            request to either our simple REST API interface or our proxy port and we will handle the
+                            rest. </p>
+
+                        <img src="images/blog-code-1.png" alt="">
+
+                        <h2>API Key & Authentication</h2>
+
+                        <p>Scraper API is designed to make scraping the web at scale as simple as possible by removing
+                            the hassle of finding high quality proxies, rotating proxy pools, detecting bans, solving
+                            CAPTCHAs, managing geotargeting and rendering javascript. With Scraper API you simply send a
+                            request to either our simple REST API interface or our proxy port and we will handle the
+                            rest.
+
+                            In this documentation we will guide you through everything you need to know to start using
+                            the API and how to customize it for your particular scraping needs. Scraper API is designed
+                            to make scraping the web at scale as simple as possible by removing the hassle of finding
+                            high quality proxies, rotating proxy pools, detecting bans, solving CAPTCHAs, managing
+                            geotargeting and rendering javascript. With Scraper API you simply send a request to either
+                            our simple REST API interface or our proxy port and we will handle the rest.</p>
+
+                        <h2>Making Requests</h2>
+
+                        <p>There are two simple ways in which you can send GET requests to Scraper API (you can also
+                            send POST/PUT requests):</p>
+
+                        <h3>Send Requests to the API Endpoint</h3>
+
+                        <p>Scraper API exposes a single API endpoint for you to send GET, POST or PUT requests. For most
+                            use cases, you simply need to send a GET request to http://api.scraperapi.com with two query
+                            string parameters and the API will return the HTML response from that URL:</p>
+
+                        <ul>
+                            <li>api_key which contains your API key, and</li>
+                            <li>url which contains the url you would like to scrape</li>
+                        </ul>
+
+                        <p>You can send API requests directly to our single API endpoint:</p>
+
+                        <p class="color-gray">Sample Code</p>
+
+                        <img src="images/blog-code-2.png" alt="">
+
+                        <p class="color-gray">Response</p>
+
+                        <img src="images/blog-code-3.png" alt="">
+
+                        <h3>Send Requests to the API Endpoint</h3>
+
+                        <p class="p-with-image">
+                            <img src="images/blog-post-img-1.png" class="float-left" alt="">
+                            Scraper API exposes a single API endpoint for you to send GET, POST or PUT requests. For
+                            most use cases, you simply need to send a GET request to http://api.scraperapi.com with two
+                            query string parameters and the API will return the HTML response from that URL:Scraper API
+                            exposes a single API endpoint for you to send GET, POST or PUT requests. For most use cases,
+                            you simply need to send a GET request to http://api.scraperapi.com with two query string
+                            parameters and the API will return the HTML response from that URL:
+                            Want to hire a new sales rep? Cashplannr guides you through the financial aspects. You
+                            immediately have a deep understanding of the impact on your business. Want to hire a new
+                            sales rep? Cashplannr guides you through the financial aspects. Want to hire a new sales
+                            rep? Cashplannr guides you through the financial aspects. You immediately have a deep
+                            understanding of the impact on your business. Want to hire a new sales rep? Cashplannr
+                            guides you through the financial aspects. Want to hire a new sales rep? Cashplannr guides
+                            you through the financial aspects. You immediately have a deep understanding of the impact
+                            on your business. Want to hire a new sales rep? Cashplannr guides you through the financial
+                            aspects. Want to hire a new sales rep? Cashplannr guides you through the financial aspects.
+                            You immediately have a deep understanding of the impact on your business. Want to hire a new
+                            sales rep? Cashplannr guides you through the financial aspects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="section-blog section-blog--post">
+        <div class="container">
+            <div class="row section-blog__top">
+                <div class="col-auto d-flex justify-content-between w-100">
+                    <strong>Read also</strong>
+                    <a href="/documentation">Read Docs <img src="images/right-arrow-white.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="row">
+                <!--Carousel Wrapper-->
+                <div class="col-12">
+                    <div id="multi-item-example2" class="carousel slide carousel-multi-item blog-carousel"
+                         data-ride="carousel">
+                        <!--Slides-->
+                        <div class="carousel-inner" role="listbox">
+                            <!--First slide-->
+                            <div class="carousel-item active">
+
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-2">
+                                            <div class="card-img-top"
+                                                 style="background-image: url('images/post-1.png');"></div>
+                                            <div class="card-body">
+                                                <div class="card-date">Jun 25, 2020</div>
+                                                <h4 class="card-title">Building a Scrapy Spider to Monitor 10M</h4>
+                                                <div class="card-user">
+                                                    <div class="card-user-photo"
+                                                         style="background-image: url('images/photo-user.png');">
+                                                    </div>
+                                                    <div class="card-user-name">Cristina Saavedra</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 clearfix d-none d-md-block">
+                                        <div class="card mb-2">
+                                            <div class="card-body">
+                                                <div class="card-date">Jun 25, 2020</div>
+                                                <h4 class="card-title">Building a Scrapy Spider to Monitor 10M</h4>
+                                                <div class="card-description">When you sign up, you’re on the Free plan
+                                                    by default. The Free plan is designed for teams just starting out
+                                                    with visual collaboration: you can invite as many team members.
+                                                </div>
+                                                <div class="card-user">
+                                                    <div class="card-user-photo"
+                                                         style="background-image: url('images/photo-user.png');">
+                                                    </div>
+                                                    <div class="card-user-name">Cristina Saavedra</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 clearfix d-none d-md-block">
+                                        <div class="card mb-2">
+                                            <div class="card-img-top"
+                                                 style="background-image: url('images/post-3.png');"></div>
+                                            <div class="card-body">
+                                                <div class="card-date">Jun 25, 2020</div>
+                                                <h4 class="card-title">Building a Scrapy Spider to Monitor 10M Products
+                                                    Per
+                                                    Day</h4>
+                                                <div class="card-user">
+                                                    <div class="card-user-photo"
+                                                         style="background-image: url('images/photo-user.png');">
+                                                    </div>
+                                                    <div class="card-user-name">Cristina Saavedra</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--/.First slide-->
+
+                            <!--Second slide-->
+                            <div class="carousel-item active">
+
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-2">
+                                            <div class="card-img-top"
+                                                 style="background-image: url('images/post-1.png');"></div>
+                                            <div class="card-body">
+                                                <div class="card-date">Jun 25, 2020</div>
+                                                <h4 class="card-title">Building a Scrapy Spider to Monitor 10M</h4>
+                                                <div class="card-user">
+                                                    <div class="card-user-photo"
+                                                         style="background-image: url('images/photo-user.png');">
+                                                    </div>
+                                                    <div class="card-user-name">Cristina Saavedra</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 clearfix d-none d-md-block">
+                                        <div class="card mb-2">
+                                            <div class="card-img-top"
+                                                 style="background-image: url('images/post-2.png');"></div>
+                                            <div class="card-body">
+                                                <div class="card-date">Jun 25, 2020</div>
+                                                <h4 class="card-title">Building a Scrapy Spider to Monitor 10M</h4>
+                                                <div class="card-user">
+                                                    <div class="card-user-photo"
+                                                         style="background-image: url('images/photo-user.png');">
+                                                    </div>
+                                                    <div class="card-user-name">Cristina Saavedra</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 clearfix d-none d-md-block">
+                                        <div class="card mb-2">
+                                            <div class="card-img-top"
+                                                 style="background-image: url('images/post-3.png');"></div>
+                                            <div class="card-body">
+                                                <div class="card-date">Jun 25, 2020</div>
+                                                <h4 class="card-title">Building a Scrapy Spider to Monitor 10M Products
+                                                    Per
+                                                    Day</h4>
+                                                <div class="card-user">
+                                                    <div class="card-user-photo"
+                                                         style="background-image: url('images/photo-user.png');">
+                                                    </div>
+                                                    <div class="card-user-name">Cristina Saavedra</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--/.Second slide-->
+
+                            <!--Third slide-->
+                            <div class="carousel-item active">
+
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card mb-2">
+                                            <div class="card-img-top"
+                                                 style="background-image: url('images/post-1.png');"></div>
+                                            <div class="card-body">
+                                                <div class="card-date">Jun 25, 2020</div>
+                                                <h4 class="card-title">Building a Scrapy Spider to Monitor 10M</h4>
+                                                <div class="card-user">
+                                                    <div class="card-user-photo"
+                                                         style="background-image: url('images/photo-user.png');">
+                                                    </div>
+                                                    <div class="card-user-name">Cristina Saavedra</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 clearfix d-none d-md-block">
+                                        <div class="card mb-2">
+                                            <div class="card-img-top"
+                                                 style="background-image: url('images/post-2.png');"></div>
+                                            <div class="card-body">
+                                                <div class="card-date">Jun 25, 2020</div>
+                                                <h4 class="card-title">Building a Scrapy Spider to Monitor 10M</h4>
+                                                <div class="card-user">
+                                                    <div class="card-user-photo"
+                                                         style="background-image: url('images/photo-user.png');">
+                                                    </div>
+                                                    <div class="card-user-name">Cristina Saavedra</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 clearfix d-none d-md-block">
+                                        <div class="card mb-2">
+                                            <div class="card-img-top"
+                                                 style="background-image: url('images/post-3.png');"></div>
+                                            <div class="card-body">
+                                                <div class="card-date">Jun 25, 2020</div>
+                                                <h4 class="card-title">Building a Scrapy Spider to Monitor 10M Products
+                                                    Per
+                                                    Day</h4>
+                                                <div class="card-user">
+                                                    <div class="card-user-photo"
+                                                         style="background-image: url('images/photo-user.png');">
+                                                    </div>
+                                                    <div class="card-user-name">Cristina Saavedra</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--/.Third slide-->
+
+                        </div>
+                        <!--/.Slides-->
+
+                    </div>
+                </div>
+                <!--/.Carousel Wrapper-->
+            </div>
+        </div>
+    </section>
+</section>
+
+<footer>
+    <div class="footer-main">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-text">
+                    <h3>Our Story</h3>
+                    <p>Having built many web scrapers, we repeatedly went through the tiresome process of finding
+                        proxies, setting up headless browsers, and handling CAPTCHAs. That's why we decided to start
+                        Scraper API, it handles all of this for you so you can scrape any page with a simple API
+                        call!</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-links">
+                    <h3>Product</h3>
+                    <ul>
+                        <li>
+                            <a href="affiliates.html">Affiliates</a>
+                        </li>
+                        <li>
+                            <a href="pricing.html">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="documentation.html">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="http://dash.mawais.com/signup">Sign Up</a>
+                        </li>
+                        <li>
+                            <a href="/blog">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-links">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/the-10-best-datacenter-https-and-static-proxy-providers-for-web-scraping/">Datacenter
+                                and Static Proxies</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/best-10-free-proxies-and-free-proxy-lists-for-web-scraping/">Free
+                                Proxies for Web Scraping</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/10-best-mobile-3g-4g-proxy-providers-for-web-scraping/">Mobile,
+                                3G and 4G Proxies</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/best-dedicated-shared-virgin-proxy-providers-for-web-scraping/">Dedicated
+                                and Shared Proxies</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/best-ipv6-proxy-providers-for-web-scraping/">IPv6
+                                Proxies</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/the-10-best-rotating-proxy-services-for-web-scraping">Residential
+                                Rotating Proxies</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-links">
+                    <h3>&nbsp;</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/the-10-best-web-scraping-tools">Web Scraping
+                                Tools</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/5-tips-for-web-scraping">Web Scraping Tips</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/free-shared-dedicated-datacenter-residential-rotating-proxies-for-web-scraping">Web
+                                Scraping Proxies</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/5-tips-for-build-large-scale-web-scrapers">Large
+                                Scale Scraping Tips</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/web-scraper-proxies-in-house-or-outsource">Inhouse
+                                or Outsource</a>
+                        </li>
+                        <li>
+                            <a href="privacy.html">Privacy policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom-bar">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="footer-logo">
+                    <a href="index.html">scraper<span>api</span></a>
+                </div>
+            </div>
+            <div class="col-md-6 text-right">
+                <p>©scraperapi</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>

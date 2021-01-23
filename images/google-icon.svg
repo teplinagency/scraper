@@ -1,0 +1,15 @@
+<svg id="Ico_google" data-name="Ico google" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <rect id="Rectangle" width="55" height="55" rx="20" fill="#fff"/>
+  <g id="Atoms_Icons_Plus" data-name="Atoms/Icons/Plus" transform="translate(14 14)">
+    <g id="Moleculas_Button" data-name="Moleculas/Button">
+      <g id="brands-and-logotypes">
+        <path id="Path" d="M6.446,8.368A7.261,7.261,0,0,1,7.474,4.636V0H2.837a13.758,13.758,0,0,0,0,16.736H7.474V12.1A7.261,7.261,0,0,1,6.446,8.368Z" transform="translate(0 5.383)" fill="#fbbd00"/>
+        <path id="Path-2" data-name="Path" d="M3.223,1.023,0,4.246,3.223,7.469a13.647,13.647,0,0,0,8.368-2.837V0H6.96A7.3,7.3,0,0,1,3.223,1.023Z" transform="translate(10.528 20.034)" fill="#0f9d58"/>
+        <path id="Path-3" data-name="Path" d="M4.636,0,0,4.636A13.971,13.971,0,0,0,1.19,5.992a13.661,13.661,0,0,0,9.724,4.028V3.573A7.308,7.308,0,0,1,4.636,0Z" transform="translate(2.837 17.483)" fill="#31aa52"/>
+        <path id="Path-4" data-name="Path" d="M13.751,3.152A13.872,13.872,0,0,0,13.526.661L13.405,0H0V6.446H6.524A7.272,7.272,0,0,1,3.737,9.435l4.631,4.631a13.971,13.971,0,0,0,1.356-1.19,13.661,13.661,0,0,0,4.028-9.724Z" transform="translate(13.751 10.599)" fill="#3c79e6"/>
+        <path id="Path-5" data-name="Path" d="M8.389,8.586l.57.57L13.516,4.6l-.57-.57A13.661,13.661,0,0,0,3.223,0L0,3.223,3.223,6.446A7.258,7.258,0,0,1,8.389,8.586Z" transform="translate(10.528)" fill="#cf2d48"/>
+        <path id="Path-6" data-name="Path" d="M10.914,6.446V0A13.662,13.662,0,0,0,1.19,4.028,13.958,13.958,0,0,0,0,5.383l4.636,4.636A7.309,7.309,0,0,1,10.914,6.446Z" transform="translate(2.837)" fill="#eb4132"/>
+      </g>
+    </g>
+  </g>
+</svg>

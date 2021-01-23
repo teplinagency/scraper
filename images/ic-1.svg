@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>6EECB6B7-3F97-4752-94A9-F6530A7EEC71@3x</title>
+    <g id="LP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-1-1-LP" transform="translate(-457.000000, -2367.000000)">
+            <g id="Ico" transform="translate(428.500000, 2366.000000)">
+                <g id="Ico/Datacenter-IPs" transform="translate(28.500000, 1.000000)">
+                    <rect id="Rectangle" x="4.05009359e-13" y="-4.97379915e-14" width="69.12" height="69.12"></rect>
+                    <g id="Group-38" transform="translate(9.000000, 10.976327)">
+                        <path d="M50.5,1.5236727 L50.5,16.5236727 L1.5,16.5236727 L1.5,1.5236727 L50.5,1.5236727 Z" id="Rectangle" stroke="#6B3EFE" stroke-width="3"></path>
+                        <path d="M50.5,22.5236727 L50.5,37.5236727 L1.5,37.5236727 L1.5,22.5236727 L50.5,22.5236727 Z" id="Rectangle" stroke="#6B3EFE" stroke-width="3"></path>
+                        <line x1="25.5" y1="39.0236727" x2="25.5" y2="47.0236727" id="Path-17" stroke="#6B3EFE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="9" y1="47.5236727" x2="42" y2="47.5236727" id="Path-18" stroke="#6B3EFE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <circle id="Oval" fill="#00CCCC" cx="9" cy="9.0236727" r="2"></circle>
+                        <circle id="Oval" fill="#00CCCC" cx="15" cy="9.0236727" r="2"></circle>
+                        <circle id="Oval" fill="#00CCCC" cx="9" cy="30.0236727" r="2"></circle>
+                        <circle id="Oval" fill="#00CCCC" cx="15" cy="30.0236727" r="2"></circle>
+                        <line x1="29" y1="9.0236727" x2="43" y2="9.0236727" id="Path-19" stroke="#FF6813" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="29" y1="30.0236727" x2="43" y2="30.0236727" id="Path-19" stroke="#FF6813" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

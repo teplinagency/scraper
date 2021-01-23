@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link href="images/favicon.png" rel="shortcut icon">
+    <link href="images/favicon.png" rel="apple-touch-icon-precomposed">
+
+    <title>Home - Scraper API</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<header id="Hdr_main" class="header">
+    <nav class="navbar navbar-expand-lg white-nav-links">
+        <a class="navbar-brand" href="index.html">scraper<span>api</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="documentation.html">Documentation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="affiliates.html">Affiliates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://danni057272.typeform.com/to/P8e4If">Support</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://danni057272.typeform.com/to/sMpSSx">Contact Sales</a>
+                </li>
+            </ul>
+            <div class="login-link-nav d-flex align-items-center">
+                <a class="nav-link" href="http://dash.mawais.com/login">Login</a>
+                <a href="http://dash.mawais.com/signup" class="btn btn-blue-nav">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section class="main-section">
+    <div class="banner-div guide-page-banner-gary">
+        <div class="container">
+            <div class="row">
+                <div class="guide-banner-text">
+                    <a href="/guides" class="d-flex align-items-center"><img src="images/back-arrow.svg" alt="" /> Back to guides</a>
+                    <h2>ScrapeBox Integration</h2>
+                    <span>Jun 25, 2020</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blog-detail-page">
+        <div class="container">
+            <div class="row">
+                <div class="blog-detail-inner-section container-969">
+                    <div class="api-documentaion">
+                        <p>Setting up scrapebox to use Scraper API as a proxy is straightforward. Scrapebox generally recommends using multiple proxies to spread your scrapes across IP addresses and prevent bot detection, but when using Scraper API we do all that for you. So you only need to configure scrapebox to use one proxy: <strong>Scraper API</strong>.</p>
+                        <p>To configure scrapebox to use Scraper API, you will need to have scrapebox installed and you will need a Scraper API key which you can get by <a href="/signup">signing up here</a>.</p>
+                        <p>Start scrapebox and once it’s loaded, click in the <strong>“Edit”</strong> button down in the bottom-left, in the <strong>“Select Harvester and Proxies”</strong> section.</p>
+                        <img src="images/scrapebox/scrapebox-scraperapi-integration-1.png" alt="scrapebox scraperapi integration" />
+                        <p>Scrapebox will open a text editor window you can use to enter Scraper API’s proxy details. Click on the first line and enter the following:</p>
+                        <div class="code-toolbar">
+                            <div class="application-content-container">
+<pre>
+<code class="language-bash">proxy-server.scraperapi.com:8001:scraperapi:YOURAPIKEY</code>
+</pre>
+                            </div>
+                        </div>
+                        <p>Don’t forget to replace <strong>YOURAPIKEY</strong> with your API key, which you can get from the Scraper API website dashboard page, once you are logged in.</p>
+                        <img src="images/scrapebox/scrapebox-scraperapi-integration-2.png" alt="scrapebox scraperapi integration" />
+                        <p>Click on the Disk (save) icon in the menu to save your new proxy list and close the editor. The proxy list on the main window will be updated to reflect your changes.</p>
+                        <img src="images/scrapebox/scrapebox-scraperapi-integration-3.png" alt="scrapebox scraperapi integration" />
+                        <p>To test your connection to Scraper API, click on the <strong>"Manage”</strong> button at the bottom-left of the <strong>“Select Harvester and Proxies”</strong> section on the main window. This will open the Proxy Manager page.</p>
+                        <p>Click on the <strong>“Test Proxies”</strong> button, then <strong>“Test all Proxies”</strong> to test your connection to Scraper API and make sure your connection details are correct. Once the tests have completed, you should see green <strong>“Passed”</strong> in each of the <strong>“Anonymous Test”</strong> and <strong>“Google Test”</strong> columns. If not, close the Proxy Manager window and re-check your proxy settings in the proxy text editor.</p>
+                        <img src="images/scrapebox/scrapebox-scraperapi-integration-4.png" alt="scrapebox scraperapi integration" />
+                        <p>Once your proxy configuration has been saved and tested, make sure you configure scrapebox to use proxies by checking the <strong>“Use Proxies”</strong> box on the main window.</p>
+                        <img src="images/scrapebox/scrapebox-scraperapi-integration-5.png" alt="scrapebox scraperapi integration" />
+                        <p>You can also use Scraper API in scrapebox’s keyword scraper. Click on the <strong>“Scrape”</strong> button just above <strong>“Select Harvester and Proxies”</strong>, then on <strong>“Keyword Scraper”</strong>. Check the <strong>“Use Proxies”</strong> box on the Keyword Scraper window to use Scraper API when getting keyword suggestions.</p>
+                        <img src="images/scrapebox/scrapebox-scraperapi-integration-6.png" alt="scrapebox scraperapi integration" />
+                        <p>Lastly, scrapebox allows you to configure the number of concurrent connections it uses when scraping. This needs to be in line with the number of concurrent requests that you have in your Scraper API plan.</p>
+                        <p>To configure scrapebox’s connections, click on the <strong>“Settings”</strong> menu at the top of the main page, then on <strong>“Connections, Timeout and Other Settings"</strong>. Adjust the slider bars in the Connections window to match the concurrent requests limit for your plan. Note that nothing bad will happen if you don’t; scrapebox will get some <span class="text-code-tag">429</span> responses from Scraper API and will retry its requests.</p>
+                        <img src="images/scrapebox/scrapebox-scraperapi-integration-7.png" alt="scrapebox scraperapi integration" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-main">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-text">
+                    <h3>Our Story</h3>
+                    <p>Having built many web scrapers, we repeatedly went through the tiresome process of finding
+                        proxies, setting up headless browsers, and handling CAPTCHAs. That's why we decided to start
+                        Scraper API, it handles all of this for you so you can scrape any page with a simple API
+                        call!</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-links">
+                    <h3>Product</h3>
+                    <ul>
+                        <li>
+                            <a href="affiliates.html">Affiliates</a>
+                        </li>
+                        <li>
+                            <a href="pricing.html">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="documentation.html">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="http://dash.mawais.com/signup">Sign Up</a>
+                        </li>
+                        <li>
+                            <a href="/blog">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-links">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/the-10-best-datacenter-https-and-static-proxy-providers-for-web-scraping/">Datacenter
+                                and Static Proxies</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/best-10-free-proxies-and-free-proxy-lists-for-web-scraping/">Free
+                                Proxies for Web Scraping</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/10-best-mobile-3g-4g-proxy-providers-for-web-scraping/">Mobile,
+                                3G and 4G Proxies</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/best-dedicated-shared-virgin-proxy-providers-for-web-scraping/">Dedicated
+                                and Shared Proxies</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/best-ipv6-proxy-providers-for-web-scraping/">IPv6
+                                Proxies</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/the-10-best-rotating-proxy-services-for-web-scraping">Residential
+                                Rotating Proxies</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-links">
+                    <h3>&nbsp;</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/the-10-best-web-scraping-tools">Web Scraping
+                                Tools</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/5-tips-for-web-scraping">Web Scraping Tips</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/free-shared-dedicated-datacenter-residential-rotating-proxies-for-web-scraping">Web
+                                Scraping Proxies</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/5-tips-for-build-large-scale-web-scrapers">Large
+                                Scale Scraping Tips</a>
+                        </li>
+                        <li>
+                            <a href="https://www.scraperapi.com/blog/web-scraper-proxies-in-house-or-outsource">Inhouse
+                                or Outsource</a>
+                        </li>
+                        <li>
+                            <a href="privacy.html">Privacy policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom-bar">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="footer-logo">
+                    <a href="index.html">scraper<span>api</span></a>
+                </div>
+            </div>
+            <div class="col-md-6 text-right">
+                <p>©scraperapi</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>
