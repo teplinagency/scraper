@@ -13550,7 +13550,7 @@ ul li {
 }
 
 .btn {
-    padding: 23px 73px 22px;
+    padding: 18px 73px 17px;
     font-size: 18px;
     line-height: 21px;
     color: #fff !important;
@@ -13982,7 +13982,7 @@ p.request-text-banner {
 }
 
 .gray-bg {
-    background-color: #faf7fd;
+    background-color: #F9F5FC;
 }
 
 .customisable-div {
@@ -14805,6 +14805,13 @@ footer {
     padding-bottom: 26px;
     border-bottom: 2px solid #f3edf9;
     margin-bottom: 27px;
+    min-height: 230px;
+}
+
+@media (max-width: 767px) {
+    .detail-list {
+        min-height: auto;
+    }
 }
 
 .detail-list ul li {
@@ -15167,7 +15174,7 @@ footer {
 
 .faq-section {
     padding: 461px 0px 160px;
-    background-image: url(../../images/faq-bg.svg);
+    background-image: url(../../images/faq-bg.svg) !important;
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: cover;
@@ -16239,6 +16246,13 @@ footer {
     background-image: url(../../images/detail-term-bg.svg);
 }
 
+@media (max-width: 1024px) {
+  .detail-term-main {
+      background-image: none !important;
+      background: linear-gradient( to bottom, rgba(79, 0, 175, 1) 0%, rgba(174, 27, 180, 1) 100% ) !important;
+  }
+}
+
 .document-dots1 {
     top: 357px;
     right: 21px;
@@ -17235,8 +17249,7 @@ footer {
 }
 
 .faq-inner .left-bar ul li a {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 15px;
 }
 
 .faq-page {
