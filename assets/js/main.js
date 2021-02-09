@@ -1116,7 +1116,7 @@ window.addEventListener("DOMContentLoaded", function () {
             var m = g(12), l = g(23), c = g(0), n = h(c), f = g(32), o = h(f);
             e.Desktop = function () {
                 function b(a) {
-                    i(this, b), this.element = n.default.parseHtml(o.default), this.container = a, this.openApplications = [], this.container.appendChild(this);
+                    i(this, b), this.element = n.default.parseHtml(o.default), this.container = a, this.openApplications = [], this.container.appendChild(this.element);
                 }
 
                 return a(b, [{
