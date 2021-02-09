@@ -14647,7 +14647,7 @@ footer {
 .guide-page-banner-gary {
     padding-top: 160px;
     padding-bottom: 60px;
-    background-color: #f7fafc !important;
+    background-color: #FAF7FD !important;
     background-image: none !important;
     height: auto !important;
     position: relative;
@@ -17093,6 +17093,7 @@ footer {
     width: 183px;
     bottom: auto;
     top: 200px;
+    opacity: .3;
 }
 
 .integration-banner::after {
@@ -17100,6 +17101,26 @@ footer {
     height: 251px;
     width: 148px;
     top: 380px;
+    opacity: .3;
+}
+.guide-page-banner-gary--decor {
+    position: relative;
+}
+.guide-page-banner-gary--decor::after {
+    content: '';
+    position: absolute;
+    background-image: url(../../images/integration-banner-dots2.svg);
+    height: 251px;
+    width: 148px;
+    top: 80px;
+    right: 0;
+    opacity: .3;
+}
+
+@media (max-width: 1200px) {
+    .guide-page-banner-gary--decor::after {
+        display: none;
+    }
 }
 
 .integration-detail-section {
@@ -17723,6 +17744,8 @@ button:focus {
     background-color: #fff;
     height: 100%;
     border: none;
+    position: relative;
+    z-index: 2;
 }
 
 .blog-carousel .card:hover {
