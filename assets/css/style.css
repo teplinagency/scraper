@@ -14687,7 +14687,7 @@ footer {
     font-size: 54px;
     font-weight: 700;
     line-height: 68px;
-    max-width: 834px;
+    /* max-width: 834px; */
     margin: 20px auto 10px;
 }
 

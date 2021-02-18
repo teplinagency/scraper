@@ -1598,9 +1598,8 @@ $(function () {
         e.preventDefault();
 
         var scrollTo = $(this).data('scrollto');
-
         $('html, body').animate({
-            scrollTop: $('#' + scrollTo).offset().top - 170
+            scrollTop: $('#' + scrollTo).offset().top - ($('.api-documentaion>nav')? 170:0)
         }, 1000);
     });
 
